@@ -1,0 +1,12 @@
+.team-info img{
+    width: 100px;
+    height: 100px;
+}
+.team-categories{
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 5px 5px 15px lightgray;
+}
+.main-btn Button{
+    margin: 25px 0 25px 0;
+}

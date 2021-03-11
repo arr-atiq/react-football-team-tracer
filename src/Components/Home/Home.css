@@ -1,0 +1,25 @@
+.player-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player-card{
+    background-color: blueviolet;
+}
+@media screen and (max-width:600px){
+    .player-info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width:600px){
+    .player-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:992px){
+    .player-info{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

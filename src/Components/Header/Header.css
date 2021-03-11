@@ -1,0 +1,13 @@
+.header img{
+    width: 1300px;
+    height: 500px;
+    position: relative;
+}
+.title{
+    position: absolute;
+    color: white;
+    margin-top: -250px;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: bold;
+}
